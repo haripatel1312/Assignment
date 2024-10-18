@@ -1,0 +1,313 @@
+/* Header Styling */
+body {
+  background: linear-gradient(135deg, #00c853, #2196f3); /* Green to Blue gradient */
+  color: #fff; /* Text color white for contrast */
+  height: 120vh; /* Make the body take up the full height of the viewport */
+}
+header {
+  background-color: #343a40;
+  padding: 0px 0;
+}
+nav {
+  background-color: black;
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: gray !important;
+}
+
+.navbar-toggler-icon {
+  background-color: black;
+}
+ul li {
+  padding: 10px;
+}
+ul:hover {
+  color: gray !important;
+  cursor: pointer;
+}
+ul li:hover {
+  color: gray !important;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  transform: scale(1); /* Resets the scaling when hovered */
+}
+
+/* Center the Navbar Items */
+.navbar-nav {
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Social media icons */
+.ml-auto {
+  display: flex;
+  justify-content: center;
+}
+
+.ml-auto a {
+  color: #ffffff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.ml-auto a:hover {
+  color: #f8f9fa;
+  transform: scale(1.2); /* Makes the icons grow on hover */
+}
+
+.ml-auto a:active {
+  transform: scale(1); /* Resets the scaling when clicked */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #f8f9fa;
+}
+
+footer span {
+  font-size: 0.9rem;
+}
+
+/* Footer Social Media Icons */
+footer .social-icons a {
+  margin: 0 15px;
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #f8f9fa;
+  transform: scale(1.2);
+}
+
+footer .social-icons a:active {
+  transform: scale(1);
+}
+/* Full screen gradient background */
+body {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: black;
+}
+
+.container-fluid {
+  height: 100vh; /* Ensures full height of the viewport */
+}
+
+/* Style for the profile image */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Headline styling */
+.headline h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.headline p {
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 10px;
+}
+
+body {
+  background: linear-gradient(135deg, #00c853, #2196f3); /* Green to Blue Gradient */
+  font-family: 'Arial', sans-serif;
+  color: black; /* Set default text color to white for contrast */
+}
+
+.profile-img-container img {
+  border: 4px solid #007bff;
+}
+
+.headline h1 {
+  color: #343a40;
+}
+
+.headline p {
+  color: #6c757d;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #007bff;
+}
+
+.card-text {
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.card {
+  background-color: white; /* Slightly transparent white background for the card */
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+}
+
+.card-body {
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #333;
+}
+
+.lead {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.text-highlight {
+  color: #00c853; /* Green color for name */
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container-fullscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+ /* CSS to resize all images to a consistent size */
+ .project-image {
+  width: 100%;
+  max-width: 300px; /* Adjust width */
+  height: 200px;    /* Adjust height */
+  object-fit: cover; /* Ensures aspect ratio is preserved */
+  margin: 0 auto;    /* Centers the image */
+}
+
+/* Custom styles for the Contact Form */
+body {
+  background-color: #f8f9fa; /* Light background for better contrast */
+}
+
+.container {
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+p.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+form {
+  background-color: #ffffff; /* White background for the form */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group label {
+  font-weight: 600;
+  color: #333;
+}
+
+form .form-control {
+  border-radius: 5px;
+  border-color: #ddd;
+  box-shadow: none;
+}
+
+form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.custom-btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.project-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0.2rem;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 220px ;
+}
