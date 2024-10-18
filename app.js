@@ -11,6 +11,9 @@ var usersRouter = require('./routes/users'); // If you have any user-related rou
 
 var app = express();
 
+// Serve static files from the 'public' directory
+app.use('/images', express.static(path.join(__dirname, 'images')));
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');  // Using Handlebars as the templating engine
